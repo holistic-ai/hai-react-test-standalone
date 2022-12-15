@@ -1,0 +1,188 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Question 1 text",
+      "options": [
+        {
+          "id": "q1:a1",
+          "text": "question 1 option 1"
+        },
+        {
+          "id": "q1:a2",
+          "text": "question 1 option 2"
+        }
+      ],
+      "visibilityCriteria": [],
+      "required": true,
+      "type": "radio",
+      "section": {
+        "id": "section-1",
+        "text": "Section 1"
+      }
+    },
+    {
+      "id": "q2",
+      "text": "Question 2 text",
+      "options": [
+        {
+          "id": "q2:a1",
+          "text": "question 2 option 1"
+        },
+        {
+          "id": "q2:a2",
+          "text": "question 2 option 2"
+        },
+        {
+          "id": "q2:a3",
+          "text": "question 2 option 3"
+        }
+      ],
+      "visibilityCriteria": [],
+      "required": true,
+      "type": "checkbox",
+      "section": {
+        "id": "section-1",
+        "text": "Section 1"
+      }
+    },
+    {
+      "id": "q3",
+      "text": "Question 3 text",
+      "options": [
+        {
+          "id": "q3:a1",
+          "text": "question 3 option 1"
+        },
+        {
+          "id": "q3:a2",
+          "text": "question 3 option 2"
+        },
+        {
+          "id": "q3:a3",
+          "text": "question 3 option 3"
+        }
+      ],
+      "visibilityCriteria": ["q1:a1", "q2:a1"],
+      "required": false,
+      "type": "radio",
+      "section": {
+        "id": "section-1",
+        "text": "Section 1"
+      }
+    },
+    {
+      "id": "q4",
+      "text": "Question 4 text",
+      "options": [
+        {
+          "id": "q4:a1",
+          "text": "question 4 option 1"
+        },
+        {
+          "id": "q4:a2",
+          "text": "question 4 option 2"
+        },
+        {
+          "id": "q4:a3",
+          "text": "question 4 option 3"
+        }
+      ],
+      "visibilityCriteria": [],
+      "required": true,
+      "type": "checkbox",
+      "section": {
+        "id": "section-2",
+        "text": "Section 2"
+      }
+    },
+    {
+      "id": "q5",
+      "text": "Question 5 text",
+      "options": [
+        {
+          "id": "q5:a1",
+          "text": "question 5 option 1"
+        },
+        {
+          "id": "q5:a2",
+          "text": "question 5 option 2"
+        },
+        {
+          "id": "q5:a3",
+          "text": "question 5 option 3"
+        }
+      ],
+      "visibilityCriteria": [],
+      "required": false,
+      "type": "radio",
+      "section": {
+        "id": "section-2",
+        "text": "Section 2"
+      }
+    },
+    {
+      "id": "q6",
+      "text": "Question 6 text",
+      "options": [
+        {
+          "id": "q6:a1",
+          "text": "question 6 option 1"
+        },
+        {
+          "id": "q6:a2",
+          "text": "question 6 option 2"
+        },
+        {
+          "id": "q6:a3",
+          "text": "question 6 option 3"
+        }
+      ],
+      "visibilityCriteria": ["q5:a1"],
+      "required": true,
+      "type": "checkbox",
+      "section": {
+        "id": "section-2",
+        "text": "Section 2"
+      }
+    },
+    {
+      "id": "q7",
+      "text": "Question 7 text",
+      "options": [
+        {
+          "id": "q7:a1",
+          "text": "question 7 option 1"
+        },
+        {
+          "id": "q7:a2",
+          "text": "question 7 option 2"
+        },
+        {
+          "id": "q7:a3",
+          "text": "question 7 option 3"
+        }
+      ],
+      "visibilityCriteria": ["q6:a2"],
+      "required": false,
+      "type": "checkbox",
+      "section": {
+        "id": "section-2",
+        "text": "Section 2"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "data": {
+        "q1": ["q1:a2"],
+        "q2": ["q2:a3", "q2:a2"],
+        "q3": ["q3:a3"],
+        "q4": [],
+        "q5": ["q5:a2"],
+        "q6": ["q6:a2"]
+      },
+      "id": 1
+    }
+  ]
+}
