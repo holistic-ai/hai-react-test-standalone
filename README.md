@@ -57,7 +57,7 @@ Given the following endpoints
 
 - `POST /answers` -> Updates the questions
 
-1. Render a form which displays a control for each component. The form should be dynamic such that if the response from the questions’ endpoint changes, the form should update. Prepend the question text with “\*” for required questions.
+1. Render a form which displays a component for each question. The form should be dynamic such that if the response from the questions’ endpoint changes, the form should update. Prepend the question text with “\*” for required questions.
 2. Bind the value of the form controls to the answers returned from the answers endpoint. When a the form is modified a request to the `POST /answers` should be made to update the answers.
 3. Show/hide questions based on the visibility criteria. A question should be shown if any of the answers in the visibility criteria have values.
 4. A question with visibility criteria should only be visible if all the questions in its visibility criteria are visible, e.g. q7 should not be visible if q6 is not visible.
