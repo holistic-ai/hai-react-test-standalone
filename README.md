@@ -76,6 +76,6 @@ Ensure that clicking on an options label also selects the corresponding checkbox
   etc
 
 3. Handle updating the answers when an option is selected. When a checkbox or radio is selected a call should be made to `/POST answers` to update the answers.
-4. Show/hide questions based on the visibility criteria. A question should be shown if any of the answers in the visibility criteria have values.
-5. A question with visibility criteria should only be visible if all the questions in its visibility criteria are visible, e.g. q7 should not be visible if q6 is not visible.
-6. Write some unit tests to test the logic of computing the visibility of a question
+<!-- 4. Show/hide questions based on the visibility criteria. A question should be shown if any of the answers in the visibility criteria have values.
+4. A question with visibility criteria should only be visible if all the questions in its visibility criteria are visible, e.g. q7 should not be visible if q6 is not visible.
+5. Write some unit tests to test the logic of computing the visibility of a question -->
