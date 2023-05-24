@@ -70,9 +70,9 @@ Ensure that clicking on an options label also selects the corresponding checkbox
 
 2. Bind the value of the question options to the answers returned from the `/answers` endpoint. e.g.
 
-- for question 1 option 1 should be selected
-- for question 2 options 2 and 3 should be selected
-- for question 3 option 3 should be selected
+- for question 1: option 1 should be selected
+- for question 2: options 2 and 3 should be selected
+- for question 3: option 3 should be selected
   etc
 
 3. Handle updating the answers when an option is selected. When a checkbox or radio is selected a call should be made to `/POST answers` to update the answers.
