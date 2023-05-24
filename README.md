@@ -59,11 +59,11 @@ Given the following endpoints
 
 1. Render the questions returned from the `/questions` endpoint. For each question display the question text and its options i.e.
 
-Question 1 text
-o question 1 option 1
+**Question 1 text**  
+o question 1 option 1  
 o question 1 option 2
 
-Question 2 text
+**Question 2 text**  
 etc...
 
 Ensure that clicking on an options label also selects the corresponding checkbox or radio button. Ensure that only a single radio button can be selected for a given question.
